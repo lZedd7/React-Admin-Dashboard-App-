@@ -17,6 +17,7 @@ const Team = () => {
       headerName: "Name",
       flex: 1,
       cellClassName: "name-column--cell",
+      
     },
     {
       field: "age",
@@ -80,7 +81,7 @@ const Team = () => {
           },
           "& .MuiDataGrid-cell": {
             borderBottom: "none",
-          },
+          }, 
           "& .name-column--cell": {
             color: colors.greenAccent[300],
           },
